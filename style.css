@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.web{
+    height: auto;
+    width: 100%;
+}
+.menu{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px 0;
+}
+
+.menu .logo{
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.menu .namestore{
+    margin-left: 150px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 100;
+}
+.icon_menu{
+    font-size: 20px;
+}
+.icon_menu .iconsearch{
+    margin-left: 20px;
+}
+.main_web{
+    display: flex;
+}
+.navbar_menu{
+    margin-left: 120px;
+    height: auto;
+    width: 200px;
+}
+.nav-menu-header {
+    height: 30px;
+    width: 200px;
+}
+.navbar_menu-item{
+    margin-top: 10px;
+    align-items: center;
+    text-align: start;
+}
+.nav-menu-header a{
+    
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.nav-menu-body a{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.nav-menu-body i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.nav-menu-header:hover{
+    background-color: gray;
+}
+.nav-menu-body a:hover{
+    background-color: gray;
+}
+.header_menu{
+    /* margin-right: 120px; */
+    position: relative;
+}
+.header_menu .header-img{
+   width: 1000px;
+   height: 620px;
+}
+.mota{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.mota .title{
+    font-size: 80px;
+    color: white;
+}
+.mota .desciption{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+}
+.mota .btn{
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.mota .btn:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.header_product{
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    width: 230px;
+    height: 400px;
+    position: relative;
+}
+.product .product-img{
+    width: 230px;
+    height: 300px;
+}
+.product-title{
+    margin-top: 10px;
+    font-size: 15px
+}
+.product-rice{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product .new{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+} 
+.product .product-btn{
+    display: none;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 9px 15px;
+}
+.product:hover .product-btn{
+    display: block;
+}
+.product-btn:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+}
+/* subsribe */
+.header-Subscribe{
+    width: 1000px;
+    height: auto;
+    background-color: black;
+    margin-bottom: 40px;
+}
+.header-Subscribe p{
+    color: white;
+    font-size: 20px;
+}
+.header-Subscribe h1{
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+}
+.header-Subscribe input{
+    width: 95%;
+    height: 40px;
+}
+::placeholder { 
+    /* color: deeppink; */
+    padding-left: 10px;
+    font-size: 15px;
+    /* text-transform: uppercase; */
+}
+.header-Subscribe .btn-sub{
+    margin: 20px 0 40px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
+.header-Subscribe .btn-sub:hover{
+    color: black;
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* contact */
+.header-contact{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 30px 0;
+}
+.contact{
+    width: 300px;
+    margin-left: 30px;
+}
+.about{
+    width: 200px;
+    margin-left: 30px;
+    text-align: center;
+}
+.store{
+    width:200px;
+    margin-left: 30px;
+   
+}
+
+.header-contact .contact-title{
+    text-align: center;
+    font-weight: 200;
+}
+.contact p{
+    text-align: center;
+    margin: 10px 0;
+}
+.contact input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+.contact button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.about a{
+    display: block;
+    margin: 10px 0;
+    color: black; 
+}
+
+.store p{
+    margin: 20px 0 20px 80px;
+}
+.store .icon{
+    margin-left: 80px;
+}
+.store .contac-icon{
+    margin-left:2px;
+}
+.powered{
+    height: 40px;
+    width: 1000px;
+    background-color: black;
+    text-align: center;
+}
+.powered h2{
+    padding-top: 20px;
+    color: white;
+    font-size: 16px;
+}
